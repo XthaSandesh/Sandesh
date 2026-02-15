@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sandesh Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+<h2>Portfolio</h2>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+</nav>
+<section class="hero">
+  <!-- home page section -->
+    <div class="hero-text">
+        <h3>Hello, Its Me</h3>
+        <h1>Sandesh <span>Shrestha</span></h1>
+        <h2 id="typing"></h2>
+    </div>
+
+    <div class="hero-image">
+        <img src="assets/byyy.png" alt="Profile Photo">
+    </div>
+
+</section>
+<div id="particles-js"></div>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script>
+particlesJS("particles-js", {
+  particles: {
+    number: { value: 40 },
+    color: { value: "#ffffff" },
+    shape: { type: "circle" },
+    size: { value: 2 },
+    move: { enable: true, speed: 2 }
+  }
+});
+</script>
+<script src="script.js"></script>
+</body>
+</html>
